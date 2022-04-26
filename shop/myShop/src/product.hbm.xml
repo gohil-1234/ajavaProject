@@ -1,0 +1,11 @@
+<hibernate-mapping>
+<class name="com.main.ProductPersist" table="products">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="name"></property>
+<property name="price"></property>
+</class>
+
+
+</hibernate-mapping>
